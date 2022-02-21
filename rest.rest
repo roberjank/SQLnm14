@@ -1,3 +1,22 @@
 ###
 
 GET http://localhost:5000/
+
+###
+
+POST http://localhost:5000/createShirt1
+Content-Type: application/json
+
+{
+    "brand": "Nike",
+    "model": "nike12",
+    "size": "XL",
+    "price": "4.563"
+}
+
+###
+
+GET http://localhost:5000/shirts
+
+
+###
